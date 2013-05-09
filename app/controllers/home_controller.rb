@@ -19,4 +19,16 @@ class HomeController < ApplicationController
   def support
     
   end
+  
+  def design
+    
+  end
+  
+  def success
+    
+  end
+  
+  def services
+    
+  end
 end

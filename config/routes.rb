@@ -61,5 +61,9 @@ MyNewSite::Application.routes.draw do
    match '/contact' => 'home#contact'
    match '/clients' => 'home#clients'
    match '/about' => 'home#about'
+   
+   match '/rails' => 'home#rails'
+   match '/api' => 'home#api'
+   match '/services' => 'home#services'
    match '/' => 'home#index'
 end
